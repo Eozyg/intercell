@@ -2,31 +2,30 @@
 <div class="imagen">
     <img src="images/conectado.png" alt="conectado">
 </div>
-<div class="texto">
-    <h1>Estamos en contacto</h1>
-</div>
 <div class="parrafos">
+    <h1> 
+        <span class="titulo">Estamos en contacto</span>
+    </h1>
     <p>El sistema de mensajería de Kinnectric reemplaza mensajes de texto, llamadas y mensajes de voz.</p>
     <p>Nuestros foros integrados cambiaran la forma de manejar los intereses y discuciones de grupos.</p>
 </div>
 </div>
-<style>
 
-{
-    #contenedor{
+<style>
+    #contenedor {
         display: flex;
-        align-items: center;
         height: 70vh;
         padding: 0 3rem;
-        flex-direction: column;
+        flex-direction: row;
     }
 
-    .texto{
-        text-align: center;
+    .titulo{
+        text-align: center; 
         color: rgba(147,64,255,255);
         max-width: 55%;
-        font-size: 1.2rem;
+        font-size: 2rem;
         margin-top: 3rem;
+        flex-direction: column;
     }
 
     .imagen{
@@ -40,10 +39,11 @@
     }
    
     .parrafos{
-        text-align: center;
         color: white;
-        max-width: 50%;
+        max-width: 100%;
         font-size: 1rem;
+        flex-direction: column;
+        width: 50rem;
     }
 }
 </style>
